@@ -1,0 +1,92 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+   
+}
+.izquierda{
+    display: flex;
+    align-items: center;
+    
+}
+.titulo{
+    font-size: 30px;
+    padding-left: 30px;
+   
+    
+}
+.link_header{
+    text-decoration: none;
+    color :white;
+}
+.menu{
+   
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color:white;
+   
+    
+}
+.menu a{
+    border: 2px solid black;
+    color: white;
+}
+.menu a:active{
+    border: 2px solid white;
+    color: white;
+    
+}
+
+.redes_sociales{
+    font-size: 23px;
+    text-align: center;
+}
+
+.whatsapp_icon{
+    color:rgb(0, 255, 60);
+    padding: 5px;
+}
+.facebook{
+    color:blue;
+    padding: 5px;
+}
+.instagram{
+    color: #ff0077;
+    padding: 5px;
+}
+
+.boton_header{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.boton_presup{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(64, 64, 64);
+    }
+}
+.boton_llamanos{
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(64, 64, 64);
+    }
+
+}

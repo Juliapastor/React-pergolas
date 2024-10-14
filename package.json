@@ -1,0 +1,39 @@
+{
+  "name": "pergolas-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-google-maps/api": "^2.20.3",
+    "@types/googlemaps": "^3.43.3",
+    "@types/markerclustererplus": "^2.1.33",
+    "@vis.gl/react-google-maps": "^1.3.0",
+    "google-map-react": "^2.2.1",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-image-gallery": "^1.3.0",
+    "react-leaflet": "^4.2.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "globals": "^15.9.0",
+    "vite": "^5.4.8"
+  }
+}

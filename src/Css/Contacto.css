@@ -1,0 +1,106 @@
+.section{
+    background-color:  rgb(78, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:white;
+}
+.container_contacto{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    padding: 3%;
+    
+}
+.container_text{
+    width: 40%;
+    border-right: 2px solid white;
+    
+    
+}
+.texto{
+    padding: 3%;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 5%;
+    word-wrap: break-word;
+}
+p{
+    padding: 8% 0%;
+}
+.atencion{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    margin-left: 10%;
+    
+}
+.boton_form{
+    padding: 8px;
+    width: 140px;
+    background-color: black; 
+    font-size: 15px;
+    border-radius: 7px;
+    margin: 1%;
+    align-items: center;
+    cursor: pointer;
+    color:white;
+}
+.boton_form:hover{
+    background-color: rgb(89, 89, 89);
+}
+label{
+    color:white;
+}
+input, textarea{
+    font-size: 15px;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+}
+
+.privacidad{
+    background-color: rgb(23, 23, 23);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 1% 4%;
+
+}
+.parrafo_contacto{
+    padding: 1%;
+}
+.link__contacto{
+    color:white;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.pergolas_Murcia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.enlace_maps{
+    padding: 10px;
+}
+.link_mapa{
+    color: white;
+    
+}
+.pergolas_Alicante{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.link_mapa_benissa{
+    color: white;
+}

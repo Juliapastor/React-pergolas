@@ -1,0 +1,29 @@
+.nosotros{
+    background: rgb(14,14,14);
+    background: linear-gradient(124deg, rgba(14,14,14,1) 12%, rgba(58,58,58,1) 47%, rgba(30,30,30,1) 88%);
+    padding-bottom: 20px;
+    color: white;
+    
+}
+.nosotros_apartado{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sobre_nosotros_title{
+    text-align: center;
+    padding: 2%;
+    font-size: 45px;
+}
+.sobre_nosotros_p{
+    width: 30%;
+    font-size: 17px;
+    margin: 5px 5pc;
+
+}
+.sobre_nosotros_img{
+    border-radius: 30px;
+    width: 500px;
+
+}
